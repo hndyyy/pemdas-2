@@ -2,9 +2,8 @@
 using namespace std;
 int main() {
     int i;
-    for(i = 0; i < 5; i++){
-        for(int j=0; j < 5 ; j++ )  {if (j>= 4-i) cout << "*";
-        else cout << " ";
+    for(i = 0; i < 4; i++){
+        for(int j=0; j <= i ; j++ )  {if (j <= i) cout << "*";
         }
         cout << endl ;
     }
